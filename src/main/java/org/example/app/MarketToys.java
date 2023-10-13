@@ -1,14 +1,10 @@
-package org.example;
+package org.example.app;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import org.example.controller.MarketController;
 
-public class Main {
+public class MarketToys {
     public static void main(String[] args) {
-        
-
-
+        MarketController mc = new MarketController();
+        mc.startGame();
     }
 }
